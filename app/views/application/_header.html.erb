@@ -11,6 +11,9 @@
             <%- end %>
           </a>
         </div>
+        <div class="return-to-leaders-home">
+          <a href="http://leaders.tinkergarten.com" target="_blank">Back to Leaders Home</a>
+        </div>
         <% unless current_user %>
             <div class='panel clearfix'>
               <a href="<%= path "/login"%>" class='btn btn-primary btn-small'><i class="fa fa-user"></i><%= I18n.t('log_in') %></a>

@@ -11,6 +11,17 @@
       backface-visibility: hidden;  /** do magic for scrolling performance **/
     }
 
+
+    .return-to-leaders-home {
+      float: left;
+      line-height: 40px;
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 10px;
+      margin-left: 40px;
+    }
+
     .contents {
       margin: 8px 0;
     }
